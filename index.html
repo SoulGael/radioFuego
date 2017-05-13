@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en-gb" dir="ltr">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Latacunga</title>
+        <link rel="shortcut icon" href="docs/images/favicon.ico" type="image/x-icon">
+        <link rel="apple-touch-icon-precomposed" href="docs/images/apple-touch-icon.png">
+        <link id="data-uikit-theme" rel="stylesheet" href="docs/css/uikit.docs.min.css">
+        <link rel="stylesheet" href="docs/css/docs.css">
+        <link rel="stylesheet" href="vendor/highlight/highlight.css">
+        <link href="https://fonts.googleapis.com/css?family=Exo+2|Lemonada|Oswald|PT+Sans+Narrow|Slabo+27px" rel="stylesheet"> 
+        <link rel="stylesheet" href="docs/css/components/slideshow.min.css" />
+
+        <script src="vendor/jquery.js"></script>
+        <script src="docs/js/uikit.min.js"></script>
+        <script src="vendor/highlight/highlight.js"></script>
+        <script src="docs/js/docs.js"></script>
+        <script src="docs/js/components/slideshow.js"></script>
+        <script src="docs/js/components/slideshow-fx.min.js"></script>
+        <script src="docs/js/components/slider.js"></script>
+    </head>
+
+    <body class="tm-background">
+
+        <div class="uk-tab-center">
+            <ul class="uk-tab uk-animation-slide-top" >
+                <li><a href=""><i class="uk-icon-android"></i> CELULÁRES</a></li>
+                <li><a href=""><i class="uk-icon-folder-open"></i> TABLETS</a></li>
+                <li><a href=""><i class="uk-icon-play-circle"></i> TELEVISIONES</a></li>
+                <li><a href=""><i class="uk-icon-headphones"></i> AUDIFONOS</a></li>
+                <li><a href=""><i class="uk-icon-laptop"></i> COMPUTADORAS</a></li>
+                <li><a href=""><i class="uk-icon-print"></i> IMPRESORAS</a></li>
+            </ul>
+        </div>
+        
+
+        <nav class="tm-navbar uk-navbar uk-navbar-attached">
+            <div class="uk-container uk-container-center">
+
+                <a class="uk-navbar-brand uk-hidden-small" href="#"><img class="uk-margin uk-margin-remove" src="docs/images/logollama.png" width="160" height="30" title="UIkit" alt="UIkit"></a>
+
+                <ul class="uk-navbar-nav uk-hidden-small">
+                    <li class="uk-animation-slide-bottom"><a href="docs/components.html">INICIO</a></li>
+                    <li class="uk-animation-slide-bottom" data-uk-dropdown="{pos:'bottom-center'}">
+
+                        <!-- This is the nav item toggling the dropdown -->
+                        <a href="">QUIENES SOMOS?</a>
+
+                        <!-- This is the dropdown -->
+                        <div class="uk-dropdown uk-dropdown-small">
+                            <ul class="uk-nav uk-nav-dropdown">
+                                <li><a href="">MISION</a></li>
+                                <li><a href="">VISION</a></li>
+                                <li><a href="">FINALIDAD</a></li>
+                                <li><a href="">OBJETIVO</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="uk-animation-slide-bottom" data-uk-dropdown="{pos:'bottom-center'}">
+                        <a href="">PROGRAMACIÓN</a>
+                        <div class="uk-dropdown uk-dropdown-width-3">
+                            <div class="uk-grid uk-dropdown-grid">
+                                <div class="uk-width-1-3">
+                                    <ul class="uk-nav uk-nav-dropdown uk-panel">
+                                        <li class="uk-nav-header">PROGRAMACIÓN DE LUNES A VIERNES</li>
+                                        <li class="uk-nav-divider"></li>
+                                        <li><a href="#">04H00 A 04H30: SANTO ROSARIO </a></li>
+                                        <li><a href="#">04h30 A 06H00: Nuestra Palabra RADIO REVISTA MISCELANIA</a></li>
+                                    </ul>
+                                </div>
+                                <div class="uk-width-1-3">
+                                    <ul class="uk-nav uk-nav-dropdown uk-panel">
+                                        <li class="uk-nav-header">PROGRAMACIÓN SÁBADOS:</li>
+                                        <li class="uk-nav-divider"></li>
+                                        <li><a href="#">04H00 A 04H30: SANTO ROSARIO </a></li>
+                                        <li><a href="#">04h30 A 06H00: Nuestra Palabra RADIO REVISTA MISCELANIA</a></li>
+                                    </ul>
+                                </div>
+                                <div class="uk-width-1-3">
+                                    <ul class="uk-nav uk-nav-dropdown uk-panel">
+                                        <li class="uk-nav-header">PROGRAMACIÓN DOMINGOS/ DOMINGO EN FAMILIA</li>
+                                        <li class="uk-nav-divider"></li>
+                                        <li><a href="#">04H00 A 04H30: SANTO ROSARIO </a></li>
+                                        <li><a href="#">04h30 A 06H00: Nuestra Palabra RADIO REVISTA MISCELANIA</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="uk-animation-slide-bottom" data-uk-dropdown="{pos:'bottom-center'}">
+                        <a href="">MUSICA</a>
+                        <div class="uk-dropdown-blank uk-panel uk-panel-box">La mejor musica de Actualidad podras encontrarla aqui</div>
+                    </li>
+                    <li class="uk-animation-slide-bottom" data-uk-dropdown="{pos:'bottom-center'}">
+                        <a href="showcase/index.html">NOTICIAS</a>
+                        <div class="uk-dropdown-blank uk-panel uk-panel-box">Las mejores noticias aqui.</div>
+                    </li>
+                </ul>
+
+                <a href="#tm-offcanvas" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
+
+                <div class="uk-navbar-brand uk-navbar-center uk-visible-small"><img src="docs/images/logoradio.png" width="90" height="160" title="UIkit" alt="UIkit"></div>
+
+            </div>
+        </nav>
+
+        
+
+        <!--<div class="tm-section tm-section-color-1 tm-section-colored">
+            <div class="uk-container uk-container-center uk-text-center">
+                <div class="uk-slidenav-position">
+                    <ul class="uk-slideshow" data-uk-slideshow="{autoplay:true}">
+                        <li><img width="10%" src="docs/images/logollama.png"></li>
+                        <li><img width="10%" src="docs/images/logollama.png"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>-->
+
+        
+
+        <div class="tm-section tm-section-color-2 tm-section-colored">
+            <div class="uk-container uk-container-center uk-text-center">
+
+                <h1 class="uk-heading-large">CONOCE NUESTRAS PROMOCIONES.</h1>
+
+                <p class="uk-text-large">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+
+          
+                    <div class="uk-slidenav-position" data-uk-slider="{center:true,autoplay:true}">
+
+                                <div class="uk-slider-container">
+                                    <ul class="uk-slider uk-grid-width-medium-1-4">
+                                        <li data-slider-slide="0" style="left: 0px; width: 205.683px;" class="">
+                                            <figure class="uk-overlay uk-overlay-hover">
+                                                <img src="docs/images/placeholder_800x400_1.jpg" alt="Image">
+                                                <div class="uk-overlay-panel uk-overlay-fade uk-overlay-background">
+                                                    <h3>Anchor</h3>
+                                                    <p>Lorem ipsum dolor sit amet.</p>
+                                                </div>
+                                                <a class="uk-position-cover" href="#"></a>
+                                            </figure>
+                                        </li>
+                                        <li data-slider-slide="1" style="left: 205.683px; width: 205.683px;" class="uk-slide-after">
+                                            <figure class="uk-overlay uk-overlay-hover">
+                                                <img src="docs/images/placeholder_800x600_3.jpg" alt="Image">
+                                                <div class="uk-overlay-panel uk-overlay-fade uk-overlay-background">
+                                                    <h3>Anchor</h3>
+                                                    <p>Lorem ipsum dolor sit amet.</p>
+                                                </div>
+                                                <a class="uk-position-cover" href="#"></a>
+                                            </figure>
+                                        </li>
+                                        <li data-slider-slide="2" style="left: 411.367px; width: 205.683px;" class="uk-slide-after">
+                                            <figure class="uk-overlay uk-overlay-hover">
+                                                <img src="docs/images/placeholder_800x600_1.jpg" alt="Image">
+                                                <div class="uk-overlay-panel uk-overlay-fade uk-overlay-background">
+                                                    <h3>Anchor</h3>
+                                                    <p>Lorem ipsum dolor sit amet.</p>
+                                                </div>
+                                                <a class="uk-position-cover" href="#"></a>
+                                            </figure>
+                                        </li>
+                                        <li data-slider-slide="3" style="left: 617.05px; width: 205.683px;" class="uk-slide-after">
+                                            <figure class="uk-overlay uk-overlay-hover">
+                                                <img src="docs/images/placeholder_800x600_4.jpg" alt="Image">
+                                                <div class="uk-overlay-panel uk-overlay-fade uk-overlay-background">
+                                                    <h3>Anchor</h3>
+                                                    <p>Lorem ipsum dolor sit amet.</p>
+                                                </div>
+                                                <a class="uk-position-cover" href="#"></a>
+                                            </figure>
+                                        </li>
+                                        <li data-slider-slide="4" style="left: 822.733px; width: 205.683px;" class="uk-slide-after">
+                                            <figure class="uk-overlay uk-overlay-hover">
+                                                <img src="docs/images/placeholder_800x600_3.jpg" alt="Image">
+                                                <div class="uk-overlay-panel uk-overlay-fade uk-overlay-background">
+                                                    <h3>Anchor</h3>
+                                                    <p>Lorem ipsum dolor sit amet.</p>
+                                                </div>
+                                                <a class="uk-position-cover" href="#"></a>
+                                            </figure>
+                                        </li>
+                                        <li data-slider-slide="5" style="left: 1028.42px; width: 205.683px;" class="uk-slide-after">
+                                            <figure class="uk-overlay uk-overlay-hover">
+                                                <img src="docs/images/placeholder_800x600_2.jpg" alt="Image">
+                                                <div class="uk-overlay-panel uk-overlay-fade uk-overlay-background">
+                                                    <h3>Anchor</h3>
+                                                    <p>Lorem ipsum dolor sit amet.</p>
+                                                </div>
+                                                <a class="uk-position-cover" href="#"></a>
+                                            </figure>
+                                        </li>
+                                        <li data-slider-slide="6" style="left: 1234.1px; width: 205.683px;" class="uk-slide-after">
+                                            <figure class="uk-overlay uk-overlay-hover">
+                                                <img src="docs/images/placeholder_800x600_1.jpg" alt="Image">
+                                                <div class="uk-overlay-panel uk-overlay-fade uk-overlay-background">
+                                                    <h3>Anchor</h3>
+                                                    <p>Lorem ipsum dolor sit amet.</p>
+                                                </div>
+                                                <a class="uk-position-cover" href="#"></a>
+                                            </figure>
+                                        </li>
+                                        <li data-slider-slide="7" style="left: 1439.78px; width: 205.683px;" class="uk-slide-after">
+                                            <figure class="uk-overlay uk-overlay-hover">
+                                                <img src="docs/images/placeholder_800x400_3.jpg" alt="Image">
+                                                <div class="uk-overlay-panel uk-overlay-fade uk-overlay-background">
+                                                    <h3>Anchor</h3>
+                                                    <p>Lorem ipsum dolor sit amet.</p>
+                                                </div>
+                                                <a class="uk-position-cover" href="#"></a>
+                                            </figure>
+                                        </li>
+                                        <li data-slider-slide="8" style="left: -822.733px; width: 205.683px;" class="uk-slide-before">
+                                            <figure class="uk-overlay uk-overlay-hover">
+                                                <img src="docs/images/placeholder_800x400_2.jpg" alt="Image">
+                                                <div class="uk-overlay-panel uk-overlay-fade uk-overlay-background">
+                                                    <h3>Anchor</h3>
+                                                    <p>Lorem ipsum dolor sit amet.</p>
+                                                </div>
+                                                <a class="uk-position-cover" href="#"></a>
+                                            </figure>
+                                        </li>
+                                        
+                                    </ul>
+                                </div>
+
+                                <a href="#" class="uk-slidenav uk-slidenav-contrast uk-slidenav-previous" data-uk-slider-item="previous" draggable="false"></a>
+                                <a href="#" class="uk-slidenav uk-slidenav-contrast uk-slidenav-next" data-uk-slider-item="next" draggable="false"></a>
+
+                            </div>
+                    <!--<div class="uk-width-medium-1-4">
+                        <div class="uk-panel">
+                            <div class="uk-cover">
+                                <iframe width="250" height="380" src="https://www.youtube.com/embed/m0tAA2je-a8" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-width-medium-1-4">
+                        <div class="uk-panel">
+                            <div class="uk-cover">
+                                <iframe width="250" height="380" src="https://www.youtube.com/embed/Sa7_Ar6V2H4" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-width-medium-1-4">
+                        <div class="uk-panel">
+                            <div class="uk-cover">
+                                <iframe width="250" height="380" src="https://www.youtube.com/embed/m0tAA2je-a8" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-width-medium-1-4">
+                        <div class="uk-panel">
+                            <div class="uk-cover">
+                                <iframe width="250" height="380" src="https://www.youtube.com/embed/Sa7_Ar6V2H4" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>-->
+            </div>
+        </div>
+
+        <div class="tm-section tm-section-color-white">
+            <figure class="uk-overlay uk-overlay-hover">
+                    
+                    <figcaption class="uk-overlay-panel uk-overlay-slide-top">all</figcaption>
+                </figure>
+            <div class="uk-container uk-container-center uk-text-center">
+
+                <h1 class="uk-heading-large uk-text-danger">VISITA NUESTRAS REDES SOCIALES</h1><br>
+
+                <div class="uk-grid tm-grid-margin-large" data-uk-grid-match="{target:'.uk-panel'}" data-uk-grid-margin>
+
+                    <div class="uk-width-medium-1-3">
+                        <a class="uk-panel tm-panel-link" href="https://twitter.com/getuikit">
+                            <div class="tm-icon"><i class="uk-icon-twitter uk-icon-large"></i></div>
+                            <h2>FACEBOOK</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+                        </a>
+                    </div>
+
+                    <div class="uk-width-medium-1-3">
+                        <a class="uk-panel tm-panel-link" href="https://github.com/uikit/uikit/issues">
+                            <div class="tm-icon"><i class="uk-icon-github-alt uk-icon-large"></i></div>
+                            <h2>TWITTER</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        </a>
+                    </div>
+
+                    <div class="uk-width-medium-1-3">
+                        <a class="uk-panel tm-panel-link" href="https://gitter.im/uikit/uikit">
+                            <div class="tm-icon"><i class="uk-icon-comments-o uk-icon-large"></i></div>
+                            <h2>YOUTUBE</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="tm-section tm-section-color-2 tm-section-colored">
+            <div class="uk-container uk-container-center uk-text-center">
+
+                <h1 class="uk-heading-large uk-margin-bottom-remove">ESPACIO PUBLICITARIO</h1>
+
+                <!--<p class="uk-text-large">UIkit is an open source framework to make the web look good.<br class="uk-hidden-small"> Create your own styles and discover the unlimited use of UIkit.</p>-->
+
+                <div class="uk-grid uk-grid-divider" data-uk-grid-margin>
+
+                    <div class="uk-width-1-1 uk-width-medium-1-3">
+                        <div class="uk-panel">
+                            <h2>SAITEL</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+                        </div>
+                    </div>
+
+                    <div class="uk-width-medium-1-3">
+                        <div class="uk-panel">
+                            <h2>SAITEL</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+                        </div>
+                    </div>
+
+                    <div class="uk-width-medium-1-3">
+                        <div class="uk-panel">
+                            <h2>SAITEL</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+                        </div>
+                    </div>
+
+                 </div>
+
+            </div>
+        </div>
+
+        <div class="tm-footer">
+            <div class="uk-container uk-container-center uk-text-center">
+
+                <ul class="uk-subnav uk-subnav-line uk-flex-center">
+                    <li><a href="https://github.com/uikit/uikit">TWITTER</a></li>
+                    <li><a href="https://github.com/uikit/uikit/issues">FACEBOOK</a></li>
+                    <li><a href="https://github.com/uikit/uikit/blob/master/CHANGELOG.md">RADIO</a></li>
+                    <li><a href="https://twitter.com/getuikit">YOUTUBE</a></li>
+                </ul>
+
+                <div class="uk-panel">
+                    <p>COPYRIGHT 2017</p>
+                </div>
+
+            </div>
+        </div>
+
+        <div id="tm-offcanvas" class="uk-offcanvas">
+
+            <div class="uk-offcanvas-bar">
+
+                <ul class="uk-nav uk-nav-offcanvas uk-nav-parent-icon" data-uk-nav="{ multiple: true }">
+                    <li class="uk-parent"><a href="#">Documentation</a>
+                        <ul class="uk-nav-sub">
+                            <li><a href="docs/documentation_get-started.html">Get started</a></li>
+                            <li><a href="docs/documentation_how-to-customize.html">How to customize</a></li>
+                            <li><a href="docs/documentation_layouts.html">Layout examples</a></li>
+                            <li><a href="docs/core.html">Core</a></li>
+                            <li><a href="docs/components.html">Components</a></li>
+                            <li><a href="docs/documentation_project-structure.html">Project structure</a></li>
+                            <li><a href="documentation_less-sass.html">Less &amp; Sass files</a></li>
+                            <li><a href="docs/documentation_create-a-theme.html">Create a theme</a></li>
+                            <li><a href="docs/documentation_create-a-style.html">Create a style</a></li>
+                            <li><a href="docs/documentation_customizer-json.html">Customizer.json</a></li>
+                            <li><a href="docs/documentation_javascript.html">Javascript</a></li>
+                            <li><a href="docs/documentation_custom-prefix.html">Custom prefix</a></li>
+                        </ul>
+                    </li>
+                    <li class="uk-nav-header">Core</li>
+                    <li class="uk-parent"><a href="#"><i class="uk-icon-wrench"></i> Defaults</a>
+                        <ul class="uk-nav-sub">
+                            <li><a href="docs/base.html">Base</a></li>
+                            <li><a href="docs/print.html">Print</a></li>
+                        </ul>
+                    </li>
+                    <li class="uk-parent"><a href="#"><i class="uk-icon-th-large"></i> Layout</a>
+                        <ul class="uk-nav-sub">
+                            <li><a href="docs/grid.html">Grid</a></li>
+                            <li><a href="docs/panel.html">Panel</a></li>
+                            <li><a href="docs/block.html">Block</a></li>
+                            <li><a href="docs/article.html">Article</a></li>
+                            <li><a href="docs/comment.html">Comment</a></li>
+                            <li><a href="docs/utility.html">Utility</a></li>
+                            <li><a href="docs/flex.html">Flex</a></li>
+                            <li><a href="docs/cover.html">Cover</a></li>
+                        </ul>
+                    </li>
+                    <li class="uk-parent"><a href="#"><i class="uk-icon-bars"></i> Navigations</a>
+                        <ul class="uk-nav-sub">
+                            <li><a href="docs/nav.html">Nav</a></li>
+                            <li><a href="docs/navbar.html">Navbar</a></li>
+                            <li><a href="docs/subnav.html">Subnav</a></li>
+                            <li><a href="docs/breadcrumb.html">Breadcrumb</a></li>
+                            <li><a href="docs/pagination.html">Pagination</a></li>
+                            <li><a href="docs/tab.html">Tab</a></li>
+                            <li><a href="docs/thumbnav.html">Thumbnav</a></li>
+                        </ul>
+                    </li>
+                    <li class="uk-parent"><a href="#"><i class="uk-icon-check"></i> Elements</a>
+                        <ul class="uk-nav-sub">
+                            <li><a href="docs/list.html">List</a></li>
+                            <li><a href="docs/description-list.html">Description list</a></li>
+                            <li><a href="docs/table.html">Table</a></li>
+                            <li><a href="docs/form.html">Form</a></li>
+                        </ul>
+                    </li>
+                    <li class="uk-parent"><a href="#"><i class="uk-icon-folder-open"></i> Common</a>
+                        <ul class="uk-nav-sub">
+                            <li><a href="docs/button.html">Button</a></li>
+                            <li><a href="docs/icon.html">Icon</a></li>
+                            <li><a href="docs/close.html">Close</a></li>
+                            <li><a href="docs/badge.html">Badge</a></li>
+                            <li><a href="docs/alert.html">Alert</a></li>
+                            <li><a href="docs/thumbnail.html">Thumbnail</a></li>
+                            <li><a href="docs/overlay.html">Overlay</a></li>
+                            <li><a href="docs/text.html">Text</a></li>
+                            <li><a href="docs/column.html">Column</a></li>
+                            <li><a href="docs/animation.html">Animation</a></li>
+                            <li><a href="docs/contrast.html">Contrast</a></li>
+                        </ul>
+                    </li>
+                    <li class="uk-parent"><a href="#"><i class="uk-icon-magic"></i> JavaScript</a>
+                        <ul class="uk-nav-sub">
+                            <li><a href="docs/dropdown.html">Dropdown</a></li>
+                            <li><a href="docs/modal.html">Modal</a></li>
+                            <li><a href="docs/offcanvas.html">Off-canvas</a></li>
+                            <li><a href="docs/switcher.html">Switcher</a></li>
+                            <li><a href="docs/toggle.html">Toggle</a></li>
+                            <li><a href="docs/scrollspy.html">Scrollspy</a></li>
+                            <li><a href="docs/smooth-scroll.html">Smooth scroll</a></li>
+                        </ul>
+                    </li>
+                    <li class="uk-nav-header">Components</li>
+                    <li class="uk-parent"><a href="#"><i class="uk-icon-th-large"></i> Layout</a>
+                        <ul class="uk-nav-sub">
+                            <li><a href="docs/grid-js.html">Dynamic Grid</a></li>
+                            <li><a href="docs/grid-parallax.html">Parallax Grid</a></li>
+                        </ul>
+                    </li>
+                    <li class="uk-parent"><a href="#"><i class="uk-icon-bars"></i> Navigations</a>
+                        <ul class="uk-nav-sub">
+                            <li><a href="docs/dotnav.html">Dotnav</a></li>
+                            <li><a href="docs/slidenav.html">Slidenav</a></li>
+                            <li><a href="docs/pagination-js.html">Dynamic Pagination</a></li>
+                        </ul>
+                    </li>
+                    <li class="uk-parent"><a href="#"><i class="uk-icon-folder-open"></i> Common</a>
+                        <ul class="uk-nav-sub">
+                            <li><a href="docs/form-advanced.html">Form advanced</a></li>
+                            <li><a href="docs/form-file.html">Form file</a></li>
+                            <li><a href="docs/form-password.html">Form password</a></li>
+                            <li><a href="docs/form-select.html">Form select</a></li>
+                            <li><a href="docs/placeholder.html">Placeholder</a></li>
+                            <li><a href="docs/progress.html">Progress</a></li>
+                        </ul>
+                    </li>
+                    <li class="uk-parent"><a href="#"><i class="uk-icon-magic"></i> JavaScript</a>
+                        <ul class="uk-nav-sub">
+                            <li><a href="docs/lightbox.html">Lightbox</a></li>
+                            <li><a href="docs/autocomplete.html">Autocomplete</a></li>
+                            <li><a href="docs/datepicker.html">Datepicker</a></li>
+                            <li><a href="docs/htmleditor.html">HTML editor</a></li>
+                            <li><a href="docs/slider.html">Slider</a></li>
+                            <li><a href="docs/slideset.html">Slideset</a></li>
+                            <li><a href="docs/slideshow.html">Slideshow</a></li>
+                            <li><a href="docs/parallax.html">Parallax</a></li>
+                            <li><a href="docs/accordion.html">Accordion</a></li>
+                            <li><a href="docs/notify.html">Notify</a></li>
+                            <li><a href="docs/search.html">Search</a></li>
+                            <li><a href="docs/nestable.html">Nestable</a></li>
+                            <li><a href="docs/sortable.html">Sortable</a></li>
+                            <li><a href="docs/sticky.html">Sticky</a></li>
+                            <li><a href="docs/timepicker.html">Timepicker</a></li>
+                            <li><a href="docs/tooltip.html">Tooltip</a></li>
+                            <li><a href="docs/upload.html">Upload</a></li>
+                        </ul>
+                    </li>
+                    <li class="uk-nav-divider"></li>
+                    <li><a href="showcase/index.html">Showcase</a></li>
+                    <li><a href="docs/tutorials.html">Tutorials</a></li>
+                    <li><a href="docs/uikit3.html">UIkit 3</a></li>
+                </ul>
+
+            </div>
+
+        </div>
+        <script>
+
+            $.ajax({
+                dataType : "jsonp",
+                url      : "https://api.github.com/repos/uikit/uikit?callback=ukghapi&nocache="+Math.random(),
+                success  : function(data){
+
+                    if(!data) return;
+
+                    if(data.data.watchers){
+                        $("[data-uikit-stargazers]").html(data.data.watchers);
+                    }
+
+                    if(data.data.forks){
+                        $("[data-uikit-forks]").html(data.data.forks);
+                    }
+                }
+            });
+        </script>
+    </body>
+</html>
